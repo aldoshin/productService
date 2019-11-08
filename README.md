@@ -10,3 +10,20 @@
 
 ```docker exec -it my-postgres bash```
 ```CREATE DATABASE mytestdb;```
+
+
+#For Order service
+
+
+```
+docker exec -it my-postgres bash
+root@e9e4447b9813:/# psql -U postgres
+psql (12.0 (Debian 12.0-2.pgdg100+1))
+Type "help" for help.
+
+postgres=# CREATE DATABASE orders_db;
+CREATE DATABASE
+postgres=# GRANT ALL PRIVILEGES ON DATABASE orders_db TO postgres;
+GRANT
+postgres=#
+```

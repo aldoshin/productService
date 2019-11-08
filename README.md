@@ -1,4 +1,4 @@
-# productService
+# productService https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes.html
 
 # Getting Started
 
@@ -12,7 +12,7 @@
 ```CREATE DATABASE mytestdb;```
 
 
-# For Order service
+# For Order service https://www.javacodegeeks.com/2018/11/spring-microservices-docker-kubernetes-2.html
 
 
 ```
